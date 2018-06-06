@@ -52,14 +52,16 @@ html,body {
 .fa-cogs,.fa-exclamation-triangle,.fa-fire-extinguisher,.fa-tint,.fa-wrench,.fa-search-plus {
   font-size: 4em;
   font-style: normal;
+  transition: background 500ms ease;
 }
+
+
 .fa-copyright {
   font-style: normal;
   font-size: 1rem; 
   
 }
   
-
 .red-cover{
 position: absolute;
 top: 0;
@@ -184,8 +186,48 @@ Extra (xl) large devices (large desktops, 1200px and up)
 
 
 
+.contact-info {
+  margin-bottom: 4em;
+  padding: 0;
+}
+.contact-info li {
+  list-style: none;
+  margin: 0 0 20px 0;
+  position: relative;
+  padding-left: 40px;
+}
+.contact-info li i {
+  position: absolute;
+  top: .3em;
+  left: 0;
+  font-size: 22px;
+  color: rgb(241, 44, 9);
+}
+.contact-info li a {
+  color: rgb(226, 10, 10);
+  transition: background 500ms ease;
+ }
+
+ .contact-info li a:hover {
+   color: #20acac;
+ }
 
 
+.btn-primary {
+  color: #fff;
+  background-color: #be3309;
+  border-color: #007bff;
+  transition: background 500ms ease;
+ }
+
+ .btn-primary:hover {
+   background: #20acac;
+ }
 
 
-
+a {
+  color: #20acac;
+}
+a:hover{
+  color: #be3309;
+}
