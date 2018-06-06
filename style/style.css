@@ -1,0 +1,191 @@
+@import url('font-awesome.min.css');
+
+html,body {
+  height: 100%;
+  width: 100%;
+  font-family: 'FontAwesome', sans-serif;
+  color: #222;
+}
+.navbar {
+  padding: .8rem;
+}
+.navbar-nav li {
+  padding-right: 20px;
+}
+.nav-link{
+  font-size: 1.1em !important;
+}
+.carousel-inner img {
+  margin-left: 1rem;
+ width: 98%;
+ height: 100%;
+}
+.padding {
+  padding-bottom: 2rem;
+} 
+.welcome {
+  width: 75%;
+  margin: 0 auto;
+  padding-top: 2rem;
+}
+.welcome hr {
+  border-top: 2px solid crimson;
+  width: 95%;
+  margin-top: .3rem;
+  margin-bottom: 1rem;
+}
+.fa-exclamation-triangle {
+  color: crimson;
+}
+.fa-wrench {
+  color: dimgrey;
+}
+.fa-cogs {
+  color: darkgrey;
+}
+.fa-tint {
+  color: deepskyblue;
+}
+.fa-fire-extinguisher {
+  color: crimson;
+}
+.fa-cogs,.fa-exclamation-triangle,.fa-fire-extinguisher,.fa-tint,.fa-wrench,.fa-search-plus {
+  font-size: 4em;
+  font-style: normal;
+}
+.fa-copyright {
+  font-style: normal;
+  font-size: 1rem; 
+  
+}
+  
+
+.red-cover{
+position: absolute;
+top: 0;
+right: 0;
+bottom: 0;
+left: 0;
+background-color: rgb(168, 51, 51);
+opacity: 0.4;
+}
+
+footer {
+  background-color: #3f3f3f;
+  color: #d5d5d5;
+  margin-top: 1%;
+  margin-bottom: 0.1%;
+
+}
+
+.kk {
+
+  position: relative;
+}
+.kk a img{
+
+  position: absolute;
+  top:40%;
+  left: 12%;
+  height: 30%;
+  opacity: 0.5;
+}
+
+hr.light {
+  border-top: 1px solid crimson;
+  border-bottom: 1px solid crimson;
+  width: 75%;
+  margin-top: .5rem;
+  margin-bottom: 1rem;
+}
+hr.my-4 {
+  border-top: 2px solid crimson;
+  width: 99%;
+  margin-top: .3rem;
+  margin-bottom: 1rem;
+
+}
+
+
+/*---Media Queries --*/
+@media (max-width: 992px) {
+
+  }
+@media (max-width: 768px) {
+  
+}
+@media (max-width: 576px) {
+  
+}
+
+
+/*---Firefox Bug Fix --*/
+.carousel-item {
+  transition: -webkit-transform 0.5s ease;
+  transition: transform 0.5s ease;
+  transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+  -webkit-backface-visibility: visible;
+  backface-visibility: visible;
+}
+/*--- Fixed Background Image --*/
+figure {
+  position: relative;
+  width: 100%;
+  height: 60%;
+  margin: 0!important;
+}
+.fixed-wrap {
+  clip: rect(0, auto, auto, 0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+#fixed {
+  background-image: url('../img/3.jpg');
+  position: fixed;
+  display: block;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+  -webkit-transform: translateZ(0);
+          transform: translateZ(0);
+  will-change: transform;
+}
+/*--- Bootstrap Padding Fix --*/
+[class*="col-"] {
+    padding: 1rem;
+}
+
+
+
+
+
+/*
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+*/
+
+
+
+
+
+
+
+
