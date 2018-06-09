@@ -53,7 +53,7 @@ h1.display-2~a{
     top: 40%;
     }
   }
-  @media only screen and (max-width: 434px) {
+@media only screen and (max-width: 434px) {
     .carousel-caption p{
       padding-bottom: 0;
       }
