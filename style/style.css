@@ -36,6 +36,28 @@ transform: translateY(-50%);
   padding-bottom: 1rem;
 }
 
+/*---Caption Font Resizing---*/
+h1.display-2{
+  font-size:6vw;
+}
+h1.display-2~p {
+
+  font-size:2vw;
+
+}
+h1.display-2~a{
+  font-size:1vw;
+}
+@media only screen and (max-width: 600px) {
+  .carousel-caption{
+    top: 40%;
+    }
+  }
+  @media only screen and (max-width: 434px) {
+    .carousel-caption p{
+      padding-bottom: 0;
+      }
+    }
 .padding {
   padding-bottom: 2rem;
 } 
