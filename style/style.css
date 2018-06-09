@@ -72,14 +72,18 @@ h1.display-2~a{
   margin-top: .3rem;
   margin-bottom: 1rem;
 }
+
+.pointer:hover{
+  text-decoration-color: none;
+}
 .fa-exclamation-triangle {
   color: crimson;
 }
 .fa-wrench {
   color: dimgrey;
 }
-.fa-cogs {
-  color: darkgrey;
+.fa-sliders {
+  color: rgb(19, 17, 17);
 }
 .fa-tint {
   color: deepskyblue;
@@ -87,7 +91,10 @@ h1.display-2~a{
 .fa-fire-extinguisher {
   color: crimson;
 }
-.fa-cogs,.fa-exclamation-triangle,.fa-fire-extinguisher,.fa-tint,.fa-wrench,.fa-search-plus {
+.fa-search-plus{
+  color: #000;
+}
+.fa-sliders,.fa-exclamation-triangle,.fa-fire-extinguisher,.fa-tint,.fa-wrench,.fa-search-plus {
   font-size: 4em;
   font-style: normal;
   transition: background 500ms ease;
@@ -274,11 +281,12 @@ Extra (xl) large devices (large desktops, 1200px and up)
  }
 
 
-a {
+ a {
   color: #20acac;
 }
 a:hover{
   color: #be3309;
+  text-decoration: none;
 }
 
 #map{
