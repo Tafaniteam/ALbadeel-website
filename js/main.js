@@ -34,3 +34,17 @@ $('a[href*="#"]')
       }
     }
   });
+
+  // ===== Scroll to Top ==== 
+$(window).scroll(function() {
+  if ($(this).scrollTop() >= 500) {        // If page is scrolled more than 50px
+      $('#btn-scrollup').fadeIn(500);    // Fade in the arrow
+  } else {
+      $('#btn-scrollup').fadeOut(200);   // Else fade out the arrow
+  }
+});
+$('#btn-scrollup').click(function() {      // When arrow is clicked
+  $('body,html').animate({
+      scrollTop : 0                       // Scroll to top of body
+  }, 1000);
+});
